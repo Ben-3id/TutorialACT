@@ -13,8 +13,3 @@ jobs:
         - name: Print Welcome Wessage
           run: echo "welcome From CI/CD"
 
-        - name: Checkout Repository 
-          uses: actions/checkout@v6.1.0
-
-        - name: Check file in dir
-          run: ls -al
